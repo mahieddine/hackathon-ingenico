@@ -1,1 +1,0 @@
-{"@uri":"http://www.ingenico.com/schemas/web/workflow/1_0","ops":[{"path":"../../../../../../../Volumes/INGENICO/HACKATHON 2015/samples/Taxi/app","@id":"import"},{"mode":"AMS","@id":"packaging"},{"mode":"Mock-Up","@id":"sign","certificateType":"VERTICAL_WEB"}],"targetPath":"dist/","@id":"workflow"}
