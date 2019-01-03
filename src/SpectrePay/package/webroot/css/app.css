@@ -1,0 +1,1936 @@
+/* line 130, spr/*.png */
+.spr-sprite, .bar, .back span, .back:active span, .homeFooterBtn1, .homeFooterBtn2, .field-pin-home, .img-search, .btn-searchicon, .field-pin-check1, .field-pin-check2, .btn-checkicon, .clock {
+	/*background: url('../img/spr-s19e7ad168e.png') no-repeat;*/
+}
+
+:focus {
+	outline: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*
+ @font-face {
+ font-family: Roboto;
+ src: url("../fonts/Roboto-Bold.ttf");
+ font-weight: bold;
+ }
+ */
+
+/* line 20, ../sass/app.scss */
+html {
+	font-family: Montserrat-Black;
+	color: white;
+	font-size: 62.5%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+/* line 28, ../sass/app.scss */
+body {
+	overflow: hidden;
+	position: absolute;
+	background: #FFF none;
+	width: 320px;
+	height: 480px;
+	font-family: Montserrat-Black;
+	color: #000;
+}
+
+/* line 38, ../sass/app.scss */
+h1 {
+	padding-top: 16px;
+	margin-left: 18px;
+	height: 43px;
+	font-weight: lighter;
+	font-size: 2.2 rem;
+}
+
+/* line 46, ../sass/app.scss */
+h2 {
+	font-size: 1.9 rem;
+	font-weight: bold;
+}
+
+/* line 52, ../sass/app.scss */
+input {
+	border: none;
+	height: 34px;
+	margin-left: 5px;
+	margin-top: 2px;
+	width: 240px;
+}
+
+/* line 61, ../sass/app.scss */
+.page {
+	overflow: hidden;
+}
+
+/* line 65, ../sass/app.scss */
+.input {
+
+}
+
+/* line 77, ../sass/app.scss */
+.hide {
+	display: none;
+}
+
+/* line 81, ../sass/app.scss */
+.wrap {
+	text-align: center;
+	position: relative;
+}
+
+/********************************************
+ HEADER
+ ********************************************/
+/* line 89, ../sass/app.scss */
+.bar {
+	height: 72px;
+	position: relative;
+	color: #000;
+	background-color: #FFF;
+}
+
+.bar .taxi-badge {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+}
+
+/* line 95, ../sass/app.scss */
+.title {
+	text-align: center;
+	color: #000;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 1.9 rem;
+}
+
+/* line 104, ../sass/app.scss */
+.back {
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: 48px;
+	height: 48px;
+}
+
+/* line 112, ../sass/app.scss */
+.back span {
+	background-position: 0 -351px;
+	position: relative;
+	top: 12px;
+	left: 12px;
+	width: 16px;
+	height: 21px;
+	display: block;
+}
+
+/* line 122, ../sass/app.scss */
+.back:active span {
+	background-position: 0 -330px;
+}
+
+/********************************************
+ HEADER END
+ ********************************************/
+/********************************************
+ FOOTER
+ ********************************************/
+/* line 134, ../sass/app.scss */
+.footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 320px;
+	height: 66px;
+	font-size: 1.2 rem;
+	z-index: 9;
+}
+
+/* line 144, ../sass/app.scss */
+.footerSplit .button {
+	width: 50%;
+	float: left;
+}
+
+/* line 149, ../sass/app.scss */
+.footer .button {
+	height: 100%;
+	cursor: pointer;
+}
+
+/* line 154, ../sass/app.scss */
+.footer .btn2 {
+	background-color: #646463;
+}
+
+/* line 159, ../sass/app.scss */
+.footer .btn2:active {
+	-webkit-box-shadow: inset 0 0 10px 5px #000000;
+	box-shadow: inset 0 0 10px 5px #000000;
+}
+
+/* line 164, ../sass/app.scss */
+.footer .btn1 {
+	background-color: #434342;
+}
+
+/* line 169, ../sass/app.scss */
+.footer .btn1:active {
+	-webkit-box-shadow: inset 0 0 10px 5px #000000;
+	box-shadow: inset 0 0 10px 5px #000000;
+}
+
+/* line 174, ../sass/app.scss */
+.footerIcon {
+	margin-top: 18px;
+	margin-left: 15px;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+
+/* line 182, ../sass/app.scss */
+.footerTexts {
+	display: inline-block;
+	width: 110px;
+	text-align: left;
+}
+
+/* line 188, ../sass/app.scss */
+.buttonText {
+	font-size: 1.6 rem;
+	font-weight: bold;
+	line-height: 24px;
+	width: 100%;
+	display: inline-block;
+}
+
+/* line 199, ../sass/app.scss */
+.btnAlignCenter {
+	text-align: center;
+}
+
+/********************************************
+ FOOTER END
+ ********************************************/
+/********************************************
+ PRINTING
+ ********************************************/
+@media print {
+	/* line 212, ../sass/app.scss */
+	.bar, .footer {
+		display: none;
+	}
+
+	/* line 216, ../sass/app.scss */
+	body {
+		width: 384px;
+		height: auto;
+		overflow: auto;
+		background-color: #FFF;
+		background-image: none;
+	}
+}
+/********************************************
+ PRINTING END
+ ********************************************/
+/********************************************
+ GENERAL
+ ********************************************/
+/* line 233, ../sass/app.scss */
+.marginTop {
+	margin-top: 282px;
+}
+
+/* line 237, ../sass/app.scss */
+#map {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/********************************************
+ GENERAL END
+ ********************************************/
+/********************************************
+ MODAL
+ ********************************************/
+/* line 252, ../sass/app.scss */
+.modal {
+	position: absolute;
+	bottom: 30px;
+	left: 10px;
+	right: 10px;
+	opacity: 0;
+	visibility: none;
+	transition: all 200ms;
+	z-index: 10;
+}
+
+/* line 263, ../sass/app.scss */
+.modal.active {
+	bottom: 50px;
+	opacity: 1;
+	visibility: visible;
+}
+
+/** Alerts from Bootstrap */
+/* line 270, ../sass/app.scss */
+.alert {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	font-size: 2rem;
+}
+
+/* line 278, ../sass/app.scss */
+.alert-danger {
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	color: #a94442;
+}
+
+/* line 284, ../sass/app.scss */
+.alert-success {
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	color: #3c763d;
+}
+
+/* line 290, ../sass/app.scss */
+.alert-info {
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+	color: #31708f;
+}
+
+/* line 296, ../sass/app.scss */
+.alert-success {
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	color: #3c763d;
+}
+
+/********************************************
+ MODAL END
+ ********************************************/
+/********************************************
+ HOME SCREEN
+ ********************************************/
+/* line 310, ../sass/app.scss */
+.home {
+	height: 370px;
+	margin-top: 10px;
+	font-size: 1.4 rem;
+}
+
+/* line 316, ../sass/app.scss */
+.homeFooterBtn1 {
+	background-position: 0 -117px;
+}
+
+/* line 320, ../sass/app.scss */
+.homeFooterBtn2 {
+	background-position: 0 -233px;
+}
+
+/* line 324, ../sass/app.scss */
+.location {
+
+}
+
+.mainContainer {
+	-webkit-app-region: no-drag;
+	-webkit-appearance: none;
+	-webkit-background-composite: source-over;
+	-webkit-border-horizontal-spacing: 0px;
+	-webkit-border-vertical-spacing: 0px;
+	-webkit-box-align: stretch;
+	-webkit-box-decoration-break: slice;
+	-webkit-box-direction: normal;
+	-webkit-box-flex: 0;
+	-webkit-box-flex-group: 1;
+	-webkit-box-lines: single;
+	-webkit-box-ordinal-group: 1;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: start;
+	-webkit-box-reflect: none;
+	-webkit-column-break-after: auto;
+	-webkit-column-break-before: auto;
+	-webkit-column-break-inside: auto;
+	-webkit-column-count: auto;
+	-webkit-column-gap: normal;
+	-webkit-column-rule-color: rgb(64, 64, 64);
+	-webkit-column-rule-style: none;
+	-webkit-column-rule-width: 0px;
+	-webkit-column-span: none;
+	-webkit-column-width: auto;
+	-webkit-font-smoothing: auto;
+	-webkit-highlight: none;
+	-webkit-hyphenate-character: auto;
+	-webkit-line-box-contain: block inline replaced;
+	-webkit-line-break: auto;
+	-webkit-line-clamp: none;
+	-webkit-locale: "en";
+	-webkit-margin-after-collapse: collapse;
+	-webkit-margin-before-collapse: collapse;
+	-webkit-mask-box-image: none;
+	-webkit-mask-box-image-outset: 0px;
+	-webkit-mask-box-image-repeat: stretch;
+	-webkit-mask-box-image-slice: 0 fill;
+	-webkit-mask-box-image-source: none;
+	-webkit-mask-box-image-width: auto;
+	-webkit-mask-clip: border-box;
+	-webkit-mask-composite: source-over;
+	-webkit-mask-image: none;
+	-webkit-mask-origin: border-box;
+	-webkit-mask-position: 0% 0%;
+	-webkit-mask-repeat: repeat;
+	-webkit-mask-size: auto;
+	-webkit-print-color-adjust: economy;
+	-webkit-rtl-ordering: logical;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.4);
+	-webkit-text-combine: none;
+	-webkit-text-decorations-in-effect: none;
+	-webkit-text-emphasis-color: rgb(64, 64, 64);
+	-webkit-text-emphasis-position: over;
+	-webkit-text-emphasis-style: none;
+	-webkit-text-fill-color: rgb(64, 64, 64);
+	-webkit-text-orientation: vertical-right;
+	-webkit-text-security: none;
+	-webkit-text-stroke-color: rgb(64, 64, 64);
+	-webkit-text-stroke-width: 0px;
+	-webkit-user-drag: auto;
+	-webkit-user-modify: read-only;
+	-webkit-user-select: text;
+	align-content: start;
+	align-items: start;
+	align-self: start;
+	alignment-baseline: auto;
+	animation-delay: 0s;
+	animation-direction: normal;
+	animation-duration: 0s;
+	animation-fill-mode: none;
+	animation-iteration-count: 1;
+	animation-name: none;
+	animation-play-state: running;
+	animation-timing-function: ease;
+	backface-visibility: visible;
+	background-attachment: scroll;
+	background-blend-mode: normal;
+	background-clip: border-box;
+	background-color: rgb(243, 246, 250);
+	background-image: none;
+	background-origin: padding-box;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	baseline-shift: 0px;
+	border-bottom-color: rgb(183, 192, 205);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-collapse: separate;
+	-webkit-border-image: none;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(187, 197, 214);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(187, 197, 214);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(194, 202, 219);
+	border-top-style: solid;
+	border-top-width: 1px;
+	bottom: auto;
+	box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 5px 0px;
+	box-sizing: content-box;
+	buffered-rendering: auto;
+	caption-side: top;
+	clear: none;
+	clip: auto;
+	clip-path: none;
+	clip-rule: nonzero;
+	color: rgb(64, 64, 64);
+	color-interpolation: sRGB;
+	color-interpolation-filters: linearRGB;
+	color-rendering: auto;
+	cursor: auto;
+	cx: 0px;
+	cy: 0px;
+	direction: ltr;
+	display: block;
+	dominant-baseline: auto;
+	empty-cells: show;
+	fill: rgb(0, 0, 0);
+	fill-opacity: 1;
+	fill-rule: nonzero;
+	filter: none;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-wrap: nowrap;
+	float: none;
+	flood-color: rgb(0, 0, 0);
+	flood-opacity: 1;
+	font-family: 'Lucida Grande', Verdana, sans-serif;
+	font-kerning: auto;
+	font-size: 13px;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-variant-ligatures: normal;
+	font-weight: normal;
+	glyph-orientation-horizontal: 0deg;
+	glyph-orientation-vertical: auto;
+	height: 167px;
+	image-rendering: auto;
+	isolation: auto;
+	justify-content: start;
+	left: auto;
+	letter-spacing: normal;
+	lighting-color: rgb(255, 255, 255);
+	line-height: 6.66667px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: disc;
+	marker-end: none;
+	marker-mid: none;
+	marker-start: none;
+	mask: none;
+	mask-type: luminance;
+	max-height: none;
+	max-width: none;
+	min-height: 0px;
+	min-width: 0px;
+	mix-blend-mode: normal;
+	motion-offset: 0px;
+	motion-path: none;
+	motion-rotation: auto 0deg;
+	object-fit: fill;
+	object-position: 50% 50%;
+	opacity: 1;
+	order: 0;
+	orphans: auto;
+	outline-color: rgb(64, 64, 64);
+	outline-offset: 0px;
+	outline-style: none;
+	outline-width: 0px;
+	overflow-wrap: normal;
+	overflow-x: visible;
+	overflow-y: visible;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	page-break-after: auto;
+	page-break-before: auto;
+	page-break-inside: auto;
+	paint-order: fill stroke markers;
+	perspective: none;
+	perspective-origin: 151px 99.5px;
+	pointer-events: auto;
+	position: static;
+	r: 0px;
+	resize: none;
+	right: auto;
+	rx: 0px;
+	ry: 0px;
+	shape-image-threshold: 0;
+	shape-margin: 0px;
+	shape-outside: none;
+	shape-rendering: auto;
+	speak: normal;
+	stop-color: rgb(0, 0, 0);
+	stop-opacity: 1;
+	stroke: none;
+	stroke-dasharray: none;
+	stroke-dashoffset: 0px;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4;
+	stroke-opacity: 1;
+	stroke-width: 1px;
+	tab-size: 8;
+	table-layout: auto;
+	text-align: start;
+	text-anchor: start;
+	text-decoration: none;
+	text-indent: 0px;
+	text-overflow: clip;
+	text-rendering: auto;
+	text-shadow: none;
+	text-transform: none;
+	top: auto;
+	touch-action: auto;
+	transform: none;
+	transform-origin: 151px 99.5px;
+	transform-style: flat;
+	transition-delay: 0s;
+	transition-duration: 0s;
+	transition-property: all;
+	transition-timing-function: ease;
+	unicode-bidi: normal;
+	vector-effect: none;
+	vertical-align: baseline;
+	visibility: visible;
+	white-space: normal;
+	widows: 1;
+	/*width: 270px;*/
+	will-change: auto;
+	word-break: normal;
+	word-spacing: 0px;
+	word-wrap: normal;
+	writing-mode: lr-tb;
+	-webkit-writing-mode: horizontal-tb;
+	x: 0px;
+	y: 0px;
+	z-index: auto;
+}
+
+.mainHeader {
+	-webkit-app-region: no-drag;
+	-webkit-appearance: none;
+	-webkit-background-composite: source-over;
+	-webkit-border-horizontal-spacing: 0px;
+	-webkit-border-vertical-spacing: 0px;
+	-webkit-box-align: stretch;
+	-webkit-box-decoration-break: slice;
+	-webkit-box-direction: normal;
+	-webkit-box-flex: 0;
+	-webkit-box-flex-group: 1;
+	-webkit-box-lines: single;
+	-webkit-box-ordinal-group: 1;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: start;
+	-webkit-box-reflect: none;
+	-webkit-column-break-after: auto;
+	-webkit-column-break-before: auto;
+	-webkit-column-break-inside: auto;
+	-webkit-column-count: auto;
+	-webkit-column-gap: normal;
+	-webkit-column-rule-color: rgb(64, 64, 64);
+	-webkit-column-rule-style: none;
+	-webkit-column-rule-width: 0px;
+	-webkit-column-span: none;
+	-webkit-column-width: auto;
+	-webkit-font-smoothing: auto;
+	-webkit-highlight: none;
+	-webkit-hyphenate-character: auto;
+	-webkit-line-box-contain: block inline replaced;
+	-webkit-line-break: auto;
+	-webkit-line-clamp: none;
+	-webkit-locale: "en";
+	-webkit-margin-after-collapse: collapse;
+	-webkit-margin-before-collapse: collapse;
+	-webkit-mask-box-image: none;
+	-webkit-mask-box-image-outset: 0px;
+	-webkit-mask-box-image-repeat: stretch;
+	-webkit-mask-box-image-slice: 0 fill;
+	-webkit-mask-box-image-source: none;
+	-webkit-mask-box-image-width: auto;
+	-webkit-mask-clip: border-box;
+	-webkit-mask-composite: source-over;
+	-webkit-mask-image: none;
+	-webkit-mask-origin: border-box;
+	-webkit-mask-position: 0% 0%;
+	-webkit-mask-repeat: repeat;
+	-webkit-mask-size: auto;
+	-webkit-print-color-adjust: economy;
+	-webkit-rtl-ordering: logical;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.4);
+	-webkit-text-combine: none;
+	-webkit-text-decorations-in-effect: none;
+	-webkit-text-emphasis-color: rgb(64, 64, 64);
+	-webkit-text-emphasis-position: over;
+	-webkit-text-emphasis-style: none;
+	-webkit-text-fill-color: rgb(64, 64, 64);
+	-webkit-text-orientation: vertical-right;
+	-webkit-text-security: none;
+	-webkit-text-stroke-color: rgb(64, 64, 64);
+	-webkit-text-stroke-width: 0px;
+	-webkit-user-drag: auto;
+	-webkit-user-modify: read-only;
+	-webkit-user-select: text;
+	align-content: start;
+	align-items: start;
+	align-self: start;
+	alignment-baseline: auto;
+	animation-delay: 0s;
+	animation-direction: normal;
+	animation-duration: 0s;
+	animation-fill-mode: none;
+	animation-iteration-count: 1;
+	animation-name: none;
+	animation-play-state: running;
+	animation-timing-function: ease;
+	backface-visibility: visible;
+	background-attachment: scroll;
+	background-blend-mode: normal;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-origin: padding-box;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	baseline-shift: 0px;
+	border-bottom-color: rgb(64, 64, 64);
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	border-collapse: separate;
+	-webkit-border-image: none;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(64, 64, 64);
+	border-left-style: none;
+	border-left-width: 0px;
+	border-right-color: rgb(64, 64, 64);
+	border-right-style: none;
+	border-right-width: 0px;
+	border-top-color: rgb(64, 64, 64);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-top-style: none;
+	border-top-width: 0px;
+	bottom: auto;
+	box-shadow: none;
+	box-sizing: content-box;
+	buffered-rendering: auto;
+	caption-side: top;
+	clear: none;
+	clip: auto;
+	clip-path: none;
+	clip-rule: nonzero;
+	color: rgb(64, 64, 64);
+	color-interpolation: sRGB;
+	color-interpolation-filters: linearRGB;
+	color-rendering: auto;
+	cursor: auto;
+	cx: 0px;
+	cy: 0px;
+	direction: ltr;
+	display: block;
+	dominant-baseline: auto;
+	empty-cells: show;
+	fill: rgb(0, 0, 0);
+	fill-opacity: 1;
+	fill-rule: nonzero;
+	filter: none;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-wrap: nowrap;
+	float: none;
+	flood-color: rgb(0, 0, 0);
+	flood-opacity: 1;
+	font-family: 'Lucida Grande', Verdana, sans-serif;
+	font-kerning: auto;
+	font-size: 13px;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-variant-ligatures: normal;
+	font-weight: normal;
+	glyph-orientation-horizontal: 0deg;
+	glyph-orientation-vertical: auto;
+	height: 39px;
+	image-rendering: auto;
+	isolation: auto;
+	justify-content: start;
+	left: auto;
+	letter-spacing: normal;
+	lighting-color: rgb(255, 255, 255);
+	line-height: 6.66667px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: disc;
+	margin-bottom: 15px;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-top: -15px;
+	marker-end: none;
+	marker-mid: none;
+	marker-start: none;
+	mask: none;
+	mask-type: luminance;
+	max-height: none;
+	max-width: none;
+	min-height: 0px;
+	min-width: 0px;
+	mix-blend-mode: normal;
+	motion-offset: 0px;
+	motion-path: none;
+	motion-rotation: auto 0deg;
+	object-fit: fill;
+	object-position: 50% 50%;
+	opacity: 1;
+	order: 0;
+	orphans: auto;
+	outline-color: rgb(64, 64, 64);
+	outline-offset: 0px;
+	outline-style: none;
+	outline-width: 0px;
+	overflow-wrap: normal;
+	overflow-x: visible;
+	overflow-y: visible;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	page-break-after: auto;
+	page-break-before: auto;
+	page-break-inside: auto;
+	paint-order: fill stroke markers;
+	perspective: none;
+	perspective-origin: 150px 19.5px;
+	pointer-events: auto;
+	position: relative;
+	r: 0px;
+	resize: none;
+	right: auto;
+	rx: 0px;
+	ry: 0px;
+	shape-image-threshold: 0;
+	shape-margin: 0px;
+	shape-outside: none;
+	shape-rendering: auto;
+	speak: normal;
+	stop-color: rgb(0, 0, 0);
+	stop-opacity: 1;
+	stroke: none;
+	stroke-dasharray: none;
+	stroke-dashoffset: 0px;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4;
+	stroke-opacity: 1;
+	stroke-width: 1px;
+	tab-size: 8;
+	table-layout: auto;
+	text-align: start;
+	text-anchor: start;
+	text-decoration: none;
+	text-indent: 0px;
+	text-overflow: clip;
+	text-rendering: auto;
+	text-shadow: none;
+	text-transform: none;
+	top: auto;
+	touch-action: auto;
+	transform: none;
+	transform-origin: 150px 19.5px;
+	transform-style: flat;
+	transition-delay: 0s;
+	transition-duration: 0s;
+	transition-property: all;
+	transition-timing-function: ease;
+	unicode-bidi: normal;
+	vector-effect: none;
+	vertical-align: baseline;
+	visibility: visible;
+	white-space: normal;
+	widows: 1;
+	will-change: auto;
+	word-break: normal;
+	word-spacing: 0px;
+	word-wrap: normal;
+	writing-mode: lr-tb;
+	-webkit-writing-mode: horizontal-tb;
+	x: 0px;
+	y: 0px;
+	z-index: auto;
+	text-align: center;
+}
+
+.mainTitle {
+	-webkit-app-region: no-drag;
+	-webkit-appearance: none;
+	-webkit-background-composite: source-over;
+	-webkit-border-horizontal-spacing: 0px;
+	-webkit-border-vertical-spacing: 0px;
+	-webkit-box-align: stretch;
+	-webkit-box-decoration-break: slice;
+	-webkit-box-direction: normal;
+	-webkit-box-flex: 0;
+	-webkit-box-flex-group: 1;
+	-webkit-box-lines: single;
+	-webkit-box-ordinal-group: 1;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: start;
+	-webkit-box-reflect: none;
+	-webkit-column-break-after: auto;
+	-webkit-column-break-before: auto;
+	-webkit-column-break-inside: auto;
+	-webkit-column-count: auto;
+	-webkit-column-gap: normal;
+	-webkit-column-rule-color: rgb(127, 136, 158);
+	-webkit-column-rule-style: none;
+	-webkit-column-rule-width: 0px;
+	-webkit-column-span: none;
+	-webkit-column-width: auto;
+	-webkit-font-smoothing: auto;
+	-webkit-highlight: none;
+	-webkit-hyphenate-character: auto;
+	-webkit-line-box-contain: block inline replaced;
+	-webkit-line-break: auto;
+	-webkit-line-clamp: none;
+	-webkit-locale: "en";
+	-webkit-margin-after-collapse: collapse;
+	-webkit-margin-before-collapse: collapse;
+	-webkit-mask-box-image: none;
+	-webkit-mask-box-image-outset: 0px;
+	-webkit-mask-box-image-repeat: stretch;
+	-webkit-mask-box-image-slice: 0 fill;
+	-webkit-mask-box-image-source: none;
+	-webkit-mask-box-image-width: auto;
+	-webkit-mask-clip: border-box;
+	-webkit-mask-composite: source-over;
+	-webkit-mask-image: none;
+	-webkit-mask-origin: border-box;
+	-webkit-mask-position: 0% 0%;
+	-webkit-mask-repeat: repeat;
+	-webkit-mask-size: auto;
+	-webkit-print-color-adjust: economy;
+	-webkit-rtl-ordering: logical;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.4);
+	-webkit-text-combine: none;
+	-webkit-text-decorations-in-effect: none;
+	-webkit-text-emphasis-color: rgb(127, 136, 158);
+	-webkit-text-emphasis-position: over;
+	-webkit-text-emphasis-style: none;
+	-webkit-text-fill-color: rgb(127, 136, 158);
+	-webkit-text-orientation: vertical-right;
+	-webkit-text-security: none;
+	-webkit-text-stroke-color: rgb(127, 136, 158);
+	-webkit-text-stroke-width: 0px;
+	-webkit-user-drag: auto;
+	-webkit-user-modify: read-only;
+	-webkit-user-select: text;
+	align-content: start;
+	align-items: start;
+	align-self: start;
+	alignment-baseline: auto;
+	animation-delay: 0s;
+	animation-direction: normal;
+	animation-duration: 0s;
+	animation-fill-mode: none;
+	animation-iteration-count: 1;
+	animation-name: none;
+	animation-play-state: running;
+	animation-timing-function: ease;
+	backface-visibility: visible;
+	background-attachment: scroll;
+	background-blend-mode: normal;
+	background-clip: border-box;
+	background-color: rgb(236, 239, 245);
+	background-image: linear-gradient(rgb(245, 248, 251), rgb(233, 237, 243));
+	background-origin: padding-box;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	baseline-shift: 0px;
+	border-bottom-color: rgb(197, 204, 219);
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-collapse: separate;
+	-webkit-border-image: none;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(127, 136, 158);
+	border-left-style: none;
+	border-left-width: 0px;
+	border-right-color: rgb(127, 136, 158);
+	border-right-style: none;
+	border-right-width: 0px;
+	border-top-color: rgb(127, 136, 158);
+	border-top-style: none;
+	border-top-width: 0px;
+	bottom: auto;
+	box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px inset;
+	box-sizing: content-box;
+	buffered-rendering: auto;
+	caption-side: top;
+	clear: none;
+	clip: auto;
+	clip-path: none;
+	clip-rule: nonzero;
+	color: rgb(127, 136, 158);
+	color-interpolation: sRGB;
+	color-interpolation-filters: linearRGB;
+	color-rendering: auto;
+	cursor: auto;
+	cx: 0px;
+	cy: 0px;
+	direction: ltr;
+	display: block;
+	dominant-baseline: auto;
+	empty-cells: show;
+	fill: rgb(0, 0, 0);
+	fill-opacity: 1;
+	fill-rule: nonzero;
+	filter: none;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-wrap: nowrap;
+	float: none;
+	flood-color: rgb(0, 0, 0);
+	flood-opacity: 1;
+	font-family: 'Lucida Grande', Verdana, sans-serif;
+	font-kerning: auto;
+	font-size: 13px;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-variant-ligatures: normal;
+	font-weight: bold;
+	glyph-orientation-horizontal: 0deg;
+	glyph-orientation-vertical: auto;
+	height: 38px;
+	image-rendering: auto;
+	isolation: auto;
+	justify-content: start;
+	left: auto;
+	letter-spacing: normal;
+	lighting-color: rgb(255, 255, 255);
+	line-height: 38px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: disc;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	marker-end: none;
+	marker-mid: none;
+	marker-start: none;
+	mask: none;
+	mask-type: luminance;
+	max-height: none;
+	max-width: none;
+	min-height: 0px;
+	min-width: 0px;
+	mix-blend-mode: normal;
+	motion-offset: 0px;
+	motion-path: none;
+	motion-rotation: auto 0deg;
+	object-fit: fill;
+	object-position: 50% 50%;
+	opacity: 1;
+	order: 0;
+	orphans: auto;
+	outline-color: rgb(127, 136, 158);
+	outline-offset: 0px;
+	outline-style: none;
+	outline-width: 0px;
+	overflow-wrap: normal;
+	overflow-x: visible;
+	overflow-y: visible;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+	page-break-after: auto;
+	page-break-before: auto;
+	page-break-inside: auto;
+	paint-order: fill stroke markers;
+	perspective: none;
+	perspective-origin: 150px 19.5px;
+	pointer-events: auto;
+	position: static;
+	r: 0px;
+	resize: none;
+	right: auto;
+	rx: 0px;
+	ry: 0px;
+	shape-image-threshold: 0;
+	shape-margin: 0px;
+	shape-outside: none;
+	shape-rendering: auto;
+	speak: normal;
+	stop-color: rgb(0, 0, 0);
+	stop-opacity: 1;
+	stroke: none;
+	stroke-dasharray: none;
+	stroke-dashoffset: 0px;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4;
+	stroke-opacity: 1;
+	stroke-width: 1px;
+	tab-size: 8;
+	table-layout: auto;
+	text-align: start;
+	text-anchor: start;
+	text-decoration: none;
+	text-indent: 0px;
+	text-overflow: clip;
+	text-rendering: auto;
+	text-shadow: rgba(255, 255, 255, 0.701961) 0px 1px 0px;
+	text-transform: none;
+	top: auto;
+	touch-action: auto;
+	transform: none;
+	transform-origin: 150px 19.5px;
+	transform-style: flat;
+	transition-delay: 0s;
+	transition-duration: 0s;
+	transition-property: all;
+	transition-timing-function: ease;
+	unicode-bidi: normal;
+	vector-effect: none;
+	vertical-align: baseline;
+	visibility: visible;
+	white-space: normal;
+	widows: 1;
+	will-change: auto;
+	word-break: normal;
+	word-spacing: 0px;
+	word-wrap: normal;
+	writing-mode: lr-tb;
+	-webkit-writing-mode: horizontal-tb;
+	x: 0px;
+	y: 0px;
+	z-index: auto;
+	zoom: 1;
+	text-align: center;
+	font-size: 20px;
+}
+
+.text-field {
+	position: relative;
+	margin-left: 12px;
+	margin-right: 14px;
+	padding: 0 10px 0 32px;
+	height: 38px;
+	line-height: 36px;
+	border-radius: 22px;
+	background-color: #FFF;
+	border: 1px solid #c1c1c1;
+	-webkit-box-shadow: 1px 2px 4px 0 #ABABAB;
+	box-shadow: 1px 2px 4px 0 #ABABAB;
+	color: #9C9C9C;
+	display: block;
+	font-size: 13px;
+	text-align: left;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.text-field .icon {
+	display: block;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	top: 9px;
+	left: 12px;
+}
+
+.text-field .text {
+
+}
+
+/* line 341, ../sass/app.scss */
+.field-pin-home {
+	background-position: 0 -311px;
+}
+
+/* line 351, ../sass/app.scss */
+.img-search {
+	background-position: 0 -265px;
+	width: 19px;
+	height: 19px;
+}
+
+/* line 361, ../sass/app.scss */
+.btn-searchicon {
+	background-position: 0 -149px;
+}
+
+/********************************************
+ HOME SCREEN END
+ ********************************************/
+/********************************************
+ SEARCHING
+ ********************************************/
+/* line 373, ../sass/app.scss */
+.searching {
+	color: #000;
+	font-size: 21px;
+	line-height: 23px;
+	font-weight: lighter;
+	margin-top: 180px;
+}
+
+/********************************************
+ SEARCHING END
+ ********************************************/
+/********************************************
+ CHECK LOCATION
+ ********************************************/
+/* line 388, ../sass/app.scss */
+.check_location {
+	width: 320px;
+	height: 340px;
+}
+
+/* line 393, ../sass/app.scss */
+.map-location {
+	position: relative;
+}
+
+/* line 397, ../sass/app.scss */
+.field-pin-check1 {
+	position: absolute;
+	background-position: 0 -311px;
+	display: inline-block;
+	top: 325px;
+	left: 23px;
+	width: 19px;
+	height: 19px;
+}
+
+/* line 407, ../sass/app.scss */
+.field-pin-check2 {
+	position: absolute;
+	background-position: 0 -311px;
+	display: inline-block;
+	top: 368px;
+	left: 23px;
+	width: 19px;
+	height: 19px;
+}
+
+/* line 417, ../sass/app.scss */
+.btn-checkicon {
+	background-position: 0 -201px;
+}
+
+/********************************************
+ CHECK LOCATION END
+ ********************************************/
+/********************************************
+ SEARCH LOCATION
+ ********************************************/
+/* line 432, ../sass/app.scss */
+.location-container {
+	width: 290px;
+	max-height: 275px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 1.5 rem;
+	background: white;
+	color: black;
+	overflow: hidden;
+}
+
+/* line 446, ../sass/app.scss */
+.location-container:not(:empty) {
+border: 1px solid #dddddd;
+}
+
+/* line 450, ../sass/app.scss */
+.location-item label {
+	width: 270px;
+	padding: 10px 0;
+	margin: 0 10px;
+	text-align: left;
+	display: block;
+	border-bottom: 1px solid #666666;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* line 464, ../sass/app.scss */
+.location-item:last-child {
+	margin-bottom: 15px;
+}
+
+/* line 468, ../sass/app.scss */
+.location-item:first-child {
+	font-weight: bold;
+	background-color: #6DC801;
+	color: white;
+}
+
+/********************************************
+ SEARCH LOCATION END
+ ********************************************/
+/********************************************
+ CONFIRM INFORMATION
+ ********************************************/
+/* line 482, ../sass/app.scss */
+.confirm_information {
+	text-align: left;
+	color: #000;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 0 20px 0;
+	width: 100%;
+	height: 343px;
+}
+
+/* line 492, ../sass/app.scss */
+.confirm_information label {
+	overflow: hidden;
+	max-height: 62px;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+}
+
+/* line 501, ../sass/app.scss */
+.strong {
+	padding: 15px 0 3px;
+	font-weight: bold;
+}
+
+/* line 510, ../sass/app.scss */
+.confirm_information .disabled {
+	color: grey;
+}
+
+/* line 514, ../sass/app.scss */
+#timeChooser {
+	font-size: 1.5 rem;
+	width: 120px;
+	height: 40px;
+	line-height: 38px;
+	background-color: white;
+	padding-left: 15px;
+	border: 1px solid grey;
+}
+
+/* line 527, ../sass/app.scss */
+.clock {
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-top: -30px;
+	margin-left: 90px;
+	float: left;
+	background-position: 0 -181px;
+}
+
+/********************************************
+ CONFIRM INFORMATION END
+ ********************************************/
+/********************************************
+ RECEIPT
+ ********************************************/
+/* line 545, ../sass/app.scss */
+.receipt {
+	text-align: left;
+	color: #000;
+	font-size: 15px;
+	line-height: 17px;
+	padding: 0 20px 0;
+	width: 100%;
+	height: 343px;
+}
+
+/* line 556, ../sass/app.scss */
+.receipt label {
+	overflow: hidden;
+	max-height: 36px;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+}
+
+/* line 565, ../sass/app.scss */
+.receipt .reservation_number {
+	font-size: 17px;
+}
+
+/* line 569, ../sass/app.scss */
+.receipt .logo_and_reservation {
+	margin-top: 20px;
+}
+
+/* line 573, ../sass/app.scss */
+.receipt .receipt_logo {
+	display: inline-block;
+}
+
+/* line 577, ../sass/app.scss */
+.receipt .reservation {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* line 582, ../sass/app.scss */
+.receipt .reservation .strong {
+	padding: 3px 0 3px;
+}
+
+/* line 586, ../sass/app.scss */
+.receipt .enjoy_message {
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 10px;
+	line-height: 135%;
+	display: none;
+}
+
+@media print {
+	/* line 596, ../sass/app.scss */
+	.receipt {
+		height: auto;
+		padding: 0 10px;
+		font-size: 20px;
+		line-height: 22px;
+	}
+	/* line 602, ../sass/app.scss */
+	.receipt .enjoy_message {
+		display: inherit;
+		font-size: 2.4 rem;
+		line-height: 135%;
+	}
+	/* line 608, ../sass/app.scss */
+	.receipt label {
+		max-height: 46px;
+	}
+	/* line 612, ../sass/app.scss */
+	.receipt .reservation_number {
+		font-size: 22px;
+	}
+}
+/********************************************
+ RECEIPT END
+ ********************************************/
+/********************************************
+ LANDSCAPE ADJUSTMENTS
+ ********************************************/
+@media only screen and (min-width: 480px) {
+	/* line 50, landscape/*.png */
+	.landscape-sprite {
+		background: url('../img/landscape-s4702111968.png') no-repeat;
+	}
+
+	/* line 629, ../sass/app.scss */
+	body {
+		background: white none;
+		width: 480px;
+		height: 320px;
+	}
+
+	/* line 635, ../sass/app.scss */
+	input {
+		width: 400px;
+	}
+
+	/* line 639, ../sass/app.scss */
+	.input {
+		margin-top: 12px;
+	}
+
+	/* line 644, ../sass/app.scss */
+	.bar {
+		background-position: 0 0;
+	}
+
+	/* line 648, ../sass/app.scss */
+	.footer {
+		width: 480px;
+	}
+
+	/* line 652, ../sass/app.scss */
+	.home {
+		height: 220px;
+	}
+
+	/* line 656, ../sass/app.scss */
+	.marginTop {
+		margin-top: 125px;
+	}
+
+	/* line 660, ../sass/app.scss */
+	.location {
+
+	}
+
+	/* line 665, ../sass/app.scss */
+	.field-pin-home {
+		top: 135px;
+	}
+
+	/* line 669, ../sass/app.scss */
+	.location-container {
+		width: 460px;
+		max-height: 115px;
+	}
+
+	/* line 674, ../sass/app.scss */
+	.location-item label {
+		width: 440px;
+	}
+
+	/* line 678, ../sass/app.scss */
+	.searching {
+		margin-top: 100px;
+	}
+
+	/* line 682, ../sass/app.scss */
+	.check_location {
+		width: 480px;
+		height: 183px;
+	}
+
+	/* line 687, ../sass/app.scss */
+	.confirm_information > div {
+		display: inline-block;
+		width: 210px;
+		vertical-align: top;
+	}
+
+	/* line 693, ../sass/app.scss */
+	.receipt > div {
+		display: inline-block;
+		width: 210px;
+		vertical-align: top;
+	}
+
+	/* line 699, ../sass/app.scss */
+	.receipt > .logo_and_reservation {
+		width: 226px;
+		margin-top: 12px;
+	}
+
+	/* line 704, ../sass/app.scss */
+	.receipt > .destination {
+		width: 226px;
+	}
+
+	/* line 708, ../sass/app.scss */
+	.receipt > .enjoy_message {
+		display: none;
+	}
+}
+/********************************************
+ LANDSCAPE END
+ ********************************************/
+
+/********************************************
+ INGENICO CHANGES: BACKGROUND: RESPONSIVE IMAGE
+ ********************************************/
+#main {
+	position: relative;
+	width: 320px;
+	height: 480px;
+	overflow: hidden;
+}
+
+@media only screen and (min-width: 480px) {
+	#main {
+		width: 320px;
+		height: 480px;
+		overflow: hidden;
+	}
+}
+
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.atmButton {
+	-webkit-app-region: no-drag;
+	-webkit-appearance: none;
+	-webkit-background-composite: source-over;
+	-webkit-border-horizontal-spacing: 0px;
+	-webkit-border-vertical-spacing: 0px;
+	-webkit-box-align: stretch;
+	-webkit-box-decoration-break: slice;
+	-webkit-box-direction: normal;
+	-webkit-box-flex: 0;
+	-webkit-box-flex-group: 1;
+	-webkit-box-lines: single;
+	-webkit-box-ordinal-group: 1;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: start;
+	-webkit-box-reflect: none;
+	-webkit-column-break-after: auto;
+	-webkit-column-break-before: auto;
+	-webkit-column-break-inside: auto;
+	-webkit-column-count: auto;
+	-webkit-column-gap: normal;
+	-webkit-column-rule-color: rgb(255, 255, 255);
+	-webkit-column-rule-style: none;
+	-webkit-column-rule-width: 0px;
+	-webkit-column-span: none;
+	-webkit-column-width: auto;
+	-webkit-font-smoothing: auto;
+	-webkit-highlight: none;
+	-webkit-hyphenate-character: auto;
+	-webkit-line-box-contain: block inline replaced;
+	-webkit-line-break: auto;
+	-webkit-line-clamp: none;
+	-webkit-locale: "en";
+	-webkit-margin-after-collapse: collapse;
+	-webkit-margin-before-collapse: collapse;
+	-webkit-mask-box-image: none;
+	-webkit-mask-box-image-outset: 0px;
+	-webkit-mask-box-image-repeat: stretch;
+	-webkit-mask-box-image-slice: 0 fill;
+	-webkit-mask-box-image-source: none;
+	-webkit-mask-box-image-width: auto;
+	-webkit-mask-clip: border-box;
+	-webkit-mask-composite: source-over;
+	-webkit-mask-image: none;
+	-webkit-mask-origin: border-box;
+	-webkit-mask-position: 0% 0%;
+	-webkit-mask-repeat: repeat;
+	-webkit-mask-size: auto;
+	-webkit-print-color-adjust: economy;
+	-webkit-rtl-ordering: logical;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.4);
+	-webkit-text-combine: none;
+	-webkit-text-decorations-in-effect: none;
+	-webkit-text-emphasis-color: rgb(255, 255, 255);
+	-webkit-text-emphasis-position: over;
+	-webkit-text-emphasis-style: none;
+	-webkit-text-fill-color: rgb(255, 255, 255);
+	-webkit-text-orientation: vertical-right;
+	-webkit-text-security: none;
+	-webkit-text-stroke-color: rgb(255, 255, 255);
+	-webkit-text-stroke-width: 0px;
+	-webkit-user-drag: auto;
+	-webkit-user-modify: read-only;
+	-webkit-user-select: none;
+	align-content: start;
+	align-items: flex-start;
+	align-self: start;
+	alignment-baseline: auto;
+	animation-delay: 0s;
+	animation-direction: normal;
+	animation-duration: 0s;
+	animation-fill-mode: none;
+	animation-iteration-count: 1;
+	animation-name: none;
+	animation-play-state: running;
+	animation-timing-function: ease;
+	backface-visibility: visible;
+	background-attachment: scroll;
+	background-blend-mode: normal;
+	background-clip: border-box;
+	background-color: rgb(25, 147, 251);
+	background-image: linear-gradient(rgb(76, 177, 254), rgb(34, 154, 252) 40%, rgb(19, 141, 246));
+	background-origin: padding-box;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	baseline-shift: 0px;
+	border-bottom-color: rgb(13, 106, 207);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-collapse: separate;
+	-webkit-border-image: none;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(15, 125, 233);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(15, 125, 233);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(20, 134, 249);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	bottom: auto;
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+	box-sizing: border-box;
+	buffered-rendering: auto;
+	caption-side: top;
+	clear: none;
+	clip: auto;
+	clip-path: none;
+	clip-rule: nonzero;
+	color: rgb(255, 255, 255);
+	color-interpolation: sRGB;
+	color-interpolation-filters: linearRGB;
+	color-rendering: auto;
+	cursor: default;
+	cx: 0px;
+	cy: 0px;
+	direction: ltr;
+	display: inline-block;
+	dominant-baseline: auto;
+	empty-cells: show;
+	fill: rgb(0, 0, 0);
+	fill-opacity: 1;
+	fill-rule: nonzero;
+	filter: none;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-wrap: nowrap;
+	float: none;
+	flood-color: rgb(0, 0, 0);
+	flood-opacity: 1;
+	font-family: 'Lucida Grande', Verdana, sans-serif;
+	font-kerning: auto;
+	font-size: 11px;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-variant-ligatures: normal;
+	font-weight: bold;
+	glyph-orientation-horizontal: 0deg;
+	glyph-orientation-vertical: auto;
+	height: 55px;
+	image-rendering: auto;
+	isolation: auto;
+	justify-content: start;
+	left: auto;
+	letter-spacing: normal;
+	lighting-color: rgb(255, 255, 255);
+	line-height: normal;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: disc;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	marker-end: none;
+	marker-mid: none;
+	marker-start: none;
+	mask: none;
+	mask-type: luminance;
+	max-height: none;
+	max-width: none;
+	min-height: 0px;
+	min-width: 0px;
+	mix-blend-mode: normal;
+	motion-offset: 0px;
+	motion-path: none;
+	motion-rotation: auto 0deg;
+	object-fit: fill;
+	object-position: 50% 50%;
+	opacity: 1;
+	order: 0;
+	orphans: auto;
+	outline-color: rgb(255, 255, 255);
+	outline-offset: 0px;
+	outline-style: none;
+	outline-width: 0px;
+	overflow-wrap: normal;
+	overflow-x: visible;
+	overflow-y: visible;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	page-break-after: auto;
+	page-break-before: auto;
+	page-break-inside: auto;
+	paint-order: fill stroke markers;
+	perspective: none;
+	perspective-origin: 135px 17px;
+	pointer-events: auto;
+	position: static;
+	r: 0px;
+	resize: none;
+	right: auto;
+	rx: 0px;
+	ry: 0px;
+	shape-image-threshold: 0;
+	shape-margin: 0px;
+	shape-outside: none;
+	shape-rendering: auto;
+	speak: normal;
+	stop-color: rgb(0, 0, 0);
+	stop-opacity: 1;
+	stroke: none;
+	stroke-dasharray: none;
+	stroke-dashoffset: 0px;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4;
+	stroke-opacity: 1;
+	stroke-width: 1px;
+	tab-size: 8;
+	table-layout: auto;
+	text-align: center;
+	text-anchor: start;
+	text-decoration: none;
+	text-indent: 0px;
+	text-overflow: clip;
+	text-rendering: auto;
+	text-shadow: rgba(0, 0, 0, 0.2) 0px -1px 1px;
+	text-transform: none;
+	top: auto;
+	touch-action: auto;
+	transform: none;
+	transform-origin: 135px 17px;
+	transform-style: flat;
+	transition-delay: 0s;
+	transition-duration: 0s;
+	transition-property: all;
+	transition-timing-function: ease;
+	unicode-bidi: normal;
+	vector-effect: none;
+	vertical-align: baseline;
+	visibility: visible;
+	white-space: pre;
+	widows: 1;
+	width: 270px;
+	will-change: auto;
+	word-break: normal;
+	word-spacing: 0px;
+	word-wrap: normal;
+	writing-mode: lr-tb;
+	-webkit-writing-mode: horizontal-tb;
+	x: 0px;
+	y: 0px;
+	z-index: auto;
+	zoom: 1;
+	
+	width:180px;
+	height:180px;
+	padding:10px;
+}
+
+.atmButton h2 {
+	font-size: 20px;
+	color: #fff;
+}
+
+.bitcoinButton {
+	width: 123px;
+	height: 123px;
+}
+
+.cashButton {
+	width: 120px;
+	height: 120px;
+}
+
+/**  Style de la page du choix du montant du retrait ***/
+
+.leftAmount {
+	float: left;
+	height: 480px;
+	width: 50%;
+}
+
+.rightAmount {
+	float: left;
+	height: 480px;
+	width: 50%;
+}
+
+.rightAmount div, .leftAmount div {
+	height: 30%;
+}
+
+.leftAmount div {
+	padding-top: 10px;
+	background: url(../img/amount-background-right.png) no-repeat;
+}
+
+.rightAmount div {
+	background: url(../img/amount-background-left.png) no-repeat right;
+}
+
+.amount {
+	margin-top: 20px;
+}
+
+.amount span {
+	font-size: 33px;
+}
+
+.amount10 {
+	padding-top: 8px;
+}
+
+.amount50 {
+	padding-top: 8px;
+}
+
+.amount200 {
+	padding-top: 8px;
+}
+
+.amount20 {
+	padding-top: 55px;
+}
+
+.amount100 {
+	padding-top: 55px;
+}
+
+.amountOther {
+	padding-top: 55px;
+}
+
+.chooseWithdrawType {
+	color: #000;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+/**  Style de la page du choix du montant du retrait bitcoin ***/
+.amountBTCMic50 {
+	padding-top: 55px;
+}
+
+.amountBTC1 {
+	padding-top: 55px;
+}
+
+.amountBTCOther {
+	margin-top: -50px;
+	padding-top: 50px;
+}
+
+.cashButton {
+	position:relative;
+	top: -20px;
+    left: -95px;
+    width:120px;
+    height:120px;
+}
+

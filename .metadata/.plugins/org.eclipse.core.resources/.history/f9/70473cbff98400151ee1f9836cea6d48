@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<configurations:ProjectConfig xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:configurations="http://www.ingenico.com/schemas/web/configurations/1_0">
+  <webAppConfig name="Spectre ATM" waid="3EB504B1" version="1">
+    <whiteListedURLs host="pay-demo.com"/>
+    <whiteListedURLs host="api.coindesk.com" crt="//@webAppConfig/@certificats.1"/>
+    <certificats name="SpectreServer" filePath="CA-certificates/GlobalSignRootCA.pem"/>
+    <certificats name="coinDeskServer" filePath="CA-certificates/coindesk.com.pem"/>
+    <weblets name="Spectre ATM" splashScreenPath="splash/splash.png">
+      <startURL isRelative="true" path="index.html"/>
+      <icons filePath="icons/thumbnail/icon32.png"/>
+      <icons filePath="icons/small/icon64.png" size="Small"/>
+      <onDesktop/>
+      <onTaskSwitcher/>
+    </weblets>
+  </webAppConfig>
+  <workflow href="project.wkflow#/"/>
+</configurations:ProjectConfig>

@@ -1,0 +1,1 @@
+{"@uri":"http://www.ingenico.com/schemas/web/workflow/1_0","ops":[{"path":"../spectre-atm/src","@id":"import"},{"mode":"AMS","@id":"packaging"},{"mode":"Mock-Up","@id":"sign","certificateType":"VERTICAL_WEB"}],"targetPath":"package","@id":"workflow"}

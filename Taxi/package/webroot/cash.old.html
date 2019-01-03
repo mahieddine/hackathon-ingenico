@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- build:css css/combined.css -->
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/app.css" rel="stylesheet">
+        <!--<link href="libs/roller/roller.css" rel="stylesheet">-->
+        <!-- /build -->
+        <!--<script src="consts.js"></script>-->
+    </head>
+    <body>
+
+        <div id="main">
+
+            <img src="img/background.png" class="background">
+
+            <!--<div class="bar">
+                <span class="back hide" id="btnBack"><span></span></span>
+                <h1 class="title translatable"></h1>
+                <img class="taxi-badge" src="img/taxilogo-badge.png">
+            </div>-->
+
+            <!-- vue principale debut -->
+            <div class="wrap" id="mainView">
+            	<div class="leftAmount">
+            		<div class="amount amount10" id="withdraw10">
+            			<span>10&euro;</span>
+            		</div>
+            		<div class="amount amount50" id="withdraw50">
+            		   <span>50&euro;</span>
+            		</div>
+            		<div class="amount amount200" id="withdraw200">
+            			<span>200&euro;</span>
+            		</div>
+            	</div>
+            	
+            	<div class="rightAmount">
+            		<div class="amount amount20" id="withdraw20"><span>20&euro;</span></div>
+            		<div class="amount amount100" id="withdraw100"><span>100&euro;</span></div>
+            		<div class="amount amountOther"><span>Autre</span></div>
+            	</div>
+            </div>
+        </div>
+
+        <!-- /build -->
+        <script src="js/tetra.min.js"></script>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/app.js" async></script>
+    </body>
+</html>

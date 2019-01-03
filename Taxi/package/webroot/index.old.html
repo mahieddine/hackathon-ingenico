@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="msapplication-tap-highlight" content="no">
+		<!-- build:css css/combined.css -->
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet" >
+		<link href="css/app.css" rel="stylesheet">
+		<!--<link href="libs/roller/roller.css" rel="stylesheet">-->
+		<!-- /build -->
+		<!--<script src="consts.js"></script>-->
+	</head>
+	<body>
+		<div id="main" class="mainContainer">
+			<div class="mainHeader">
+				<h1 class="mainTitle">Spectre ATM</h1>
+			</div>
+			<!--img src="img/background.png" class="background">-->
+			<!--<div class="bar">
+				<span class="back hide" id="btnBack"><span></span></span>
+				<h1 class="title translatable chooseWithdrawType">Choisissez votre type de retrait</h1>
+			</div>-->
+
+			<!-- vue principale debut -->
+			<div class="wrap" id="mainView">
+				<br/>
+				<br/>
+				<br/>
+				
+				<a href="cash.html" class="atmButton"> <h2>Retrait d'argent</h2>
+				<br/>
+				<img src="img/icon-cash.png" class="cashButton" id="cashButton" /> </a>
+				<br/>
+				<br/>
+				<br/>
+				<a href="bitcoin.html" class="atmButton"> <h2>Achat de bitcoin</h2>
+				<br/>
+				<img src="img/icon-bitcoin.png"  class="bitcoinButton" id="bitcoinButton"/> </a>
+			</div>
+		</div>
+
+		<!-- requirejs loader -->
+		<!-- build:js combined.js -->
+		<!--<script src="config-require.js"></script>
+		<script data-main="app/load" src="libs/requirejs/require.js" async></script>-->
+		<!-- /build -->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/app.js" async></script>
+	</body>
+</html>

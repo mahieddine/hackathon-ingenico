@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- build:css css/combined.css -->
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/app.css" rel="stylesheet">
+        <!--<link href="libs/roller/roller.css" rel="stylesheet">-->
+        <!-- /build -->
+        <!--<script src="consts.js"></script>-->
+    </head>
+    <body>
+
+        <div id="main">
+
+            <img src="img/background.png" class="background">
+
+            <div class="bar">
+                <h1 class="title translatable">Prix Courant <br/>1 BTC = <span id="liveBitcoinPrice">---</span>&euro;</h1>
+            </div>
+
+            <!-- vue principale debut -->
+            <div class="wrap" id="mainView">
+            	<div class="leftAmount">
+            		<div class="amount amountBTCMic5" id="withdrawBTCMic5">
+            			<span>0.05 B</span>
+            		</div>
+            		<div class="amount amountBTCMic10" id="withdrawBTCMic10" >
+            		   <span>0.10 B</span>
+            		</div>
+            		<div class="amount amountBTCMic25" id="withdrawBTCMic25" >
+            			<span>0.25 B</span>
+            		</div>
+            	</div>
+            	
+            	<div class="rightAmount">
+            		<div class="amount amountBTCMic50" id="withdrawBTCMic50" ><span>0.5 B</span></div>
+            		<div class="amount amountBTC1" id="withdrawBTC1" ><span>1 B</span></div>
+            		<div class="amount amountBTCOther" id="withdrawBTCOther"><span>Autre</span></div>
+            	</div>
+            </div>
+        </div>
+
+        <!-- /build -->
+        <script src="js/tetra.min.js"></script>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/app.js" async></script>
+    </body>
+</html>

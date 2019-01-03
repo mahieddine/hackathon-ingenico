@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="currencies" horiz-adv-x="1000" >
+<font-face font-family="currencies" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="bitcoin" unicode="&#xe800;" d="m651 493q10-102-73-144 65-16 98-58t25-119q-4-40-18-70t-36-49-54-33-68-19-81-9v-142h-86v140q-45 0-68 1v-141h-86v142q-10 0-30 1t-31 0h-112l18 102h62q27 0 32 28v225h9q-4 0-9 0v160q-7 38-50 38h-62v92l119-1q35 0 54 1v141h86v-138q45 1 68 1v137h86v-141q44-4 78-13t63-25 46-43 20-64z m-120-304q0 20-8 35t-21 26-32 17-36 10-42 5-38 2-36 0-27-1v-189q5 0 21 0t27 0 29 1 33 2 32 5 31 8 26 11 22 17 14 22 5 29z m-39 265q0 19-7 33t-17 23-27 16-31 9-34 5-33 1-30 0-22-1v-171q3 0 20 0t26 0 27 1 31 3 29 6 27 10 21 15 15 22 5 28z" horiz-adv-x="714.3" />
+<glyph glyph-name="euro" unicode="&#xe801;" d="m545 121l19-89q2-7-1-13t-10-8l-3 0q-2-1-6-2t-9-3-12-3-14-3-17-2-18-3-21-2-21 0q-131 0-228 73t-133 196h-53q-7 0-13 5t-5 13v63q0 7 5 12t13 6h37q-1 31 0 58h-37q-8 0-13 5t-5 13v64q0 7 5 13t13 5h55q37 117 135 188t224 72q57 0 108-13 6-2 11-9 4-6 2-13l-24-89q-2-7-8-11t-13-1l-2 1q-3 0-7 1l-10 2t-12 2-15 2-16 1-16 0q-71 0-126-35t-84-98h261q9 0 14-7 6-7 4-15l-13-63q-3-15-18-15h-273q-1-20 0-58h256q9 0 14-7 5-7 4-15l-14-63q-1-6-6-10t-11-4h-216q27-65 84-104t127-38q10 0 20 1t19 2 16 2 14 3 10 3l7 1 3 2q7 2 14-2 7-4 9-11z" horiz-adv-x="571.4" />
+</font>
+</defs>
+</svg>

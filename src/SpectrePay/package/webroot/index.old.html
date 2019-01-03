@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="msapplication-tap-highlight" content="no">
+		<!-- build:css css/combined.css -->
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/app.css" rel="stylesheet">
+		<link href="css/swiper.min.css" rel="stylesheet" >
+		<!--<link href="libs/roller/roller.css" rel="stylesheet">-->
+		<!-- /build -->
+		<!--<script src="consts.js"></script>-->
+	</head>
+	<body>
+		<div id="main">			
+			<img src="img/background.png" class="background">
+			<div id='form'>
+			<div class="bar">
+				<!--<span class="back hide" id="btnBack"><span></span></span>-->
+				<h1 class="title translatable chooseWithdrawType">Saisissez le montant à payer</h1>
+			</div>
+
+			<!-- vue principale debut -->
+			<div class="wrap" id="mainView">
+				<div class="payAmount">
+					<ul class="input-list style-4 clearfix">
+						<li>
+							<input type="text" placeholder="Saisissez votre montant" id="amountToPay">
+						</li>
+					</ul>
+				</div>
+				<!-- Swiper -->
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/carte-paypal.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="img/carte-jcb.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="img/carte-maestro.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="img/carte-dinersclub.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="img/carte-aurore.png" />
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+					<!-- Add Arrows -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+
+				<div class="buttonWrapper">
+					<input type="submit" class="styled-button-8" value="Valider" id="startPayment" />
+				</div>
+			  </div>
+			</div>
+			<div>
+				<h2 id="qrCodeTitle"></h2>
+				<div class="codeContainer" id='code'>
+					
+				</div>				
+			</div>
+		</div>
+
+		<!-- requirejs loader -->
+		<!-- build:js combined.js -->
+		<!--<script src="config-require.js"></script>
+		<script data-main="app/load" src="libs/requirejs/require.js" async></script>-->
+		<!-- /build -->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/jquery.qrcode-0.12.0.min.js"></script>
+		<script src="js/app.js" async></script>
+
+	</body>
+</html>
